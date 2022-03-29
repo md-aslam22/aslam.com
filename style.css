@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.btn-bg{
+  padding: 11px 28px;
+  background-color:   #2DB4DE;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin:auto;
+}
+
+header.topber {
+    background: #273C66;
+}
+
+.topLeft i {
+    color: white;
+}
+
+.topRight i {
+    color: white;
+}
+
+.topheader {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.topLeft {
+    display: flex;
+}
+
+.topRight {
+    display: flex;
+}
+
+.email {
+}
+
+.phone {
+    margin-left: 50px;
+}
+
+.topLeft a:hover {
+    color: #2DB4DE;
+    transition: .5s;
+}
+
+.topRight i {
+    margin-right: 10px;
+}
+
+.Login {
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.topRight a:hover {
+    transition: .5s;
+    color: #2DB4DE;
+}
+
+.Login i:hover {
+    transition: .5s;
+    color: #2DB4DE;
+}
+
+
+button.btn-bg a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button.btn-bg a:hover {
+    color: #46ff00;
+}
+
+button.btn-bg {
+    border: none;
+}
+
+.Educavo-logo {
+    width: 210px;
+}
+
+.Educavo-logo img {
+    width: 210px;
+}
+
+.topheader-bottom {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.topListLeft {
+    display: flex;
+}
+
+.categorise-font {
+    margin-left: 60px;
+}
+
+.topListRight {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+ul.Listber li a {
+    color: black;
+}
+
+ul.Listber {
+    list-style: none;
+}
+ul.Listber {
+    margin-right: 90px;
+    width: 525px;
+    display: flex;
+    padding: 55px;
+}
+
+ul.Listber li {
+    padding: 0px 16px;
+}
+
+.RightSite-icon i {
+    padding: 0px 10px;
+}
+
+ul.Listber li a {
+    font-weight: 600;
+}
+
+.RightSite-icon a:first-child {
+    border-right: 1px solid rgb(63, 37, 37);
+}
+.RightSite-icon a {
+    color: black;
+}
+.RightSite-icon a:hover {
+    transition: .5s;color: #2DB4DE;
+}
+
+.categorise-font {
+    margin-top: 10px;
+}
+
+.categorise-font i {
+    margin-right: 15px;
+}
+
+.categorise-font i:hover {
+    color: #2db4de;
+    transition:.5s;
+}
+
+ul.Listber li a:hover {
+    transition: .5s;
+    color: #2db4de;
+}
+
+.categorise-font a{
+    color: black;
+}
+
+ul.sub-menu {
+    position: absolute;
+    list-style: none;
+    width: 210px;
+    background: #2db4de;
+    padding: 15px;
+    left: 0;
+    margin-top: 45px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition:.5s;
+    opacity: 0;
+}
+
+ul.sub-menu li a {
+    color: white;
+    font-weight: 400;
+}
+ul.sub-menu li {
+    padding: 8px;
+}
+
+li.dropdown {
+    position: relative;
+   
+}
+li.dropdown:hover .sub-menu {
+    transform: scaleY(1);
+    opacity: 1;
+    transition: .5s;
+}
+
+ul.sub-menu li a:hover {
+    color: wheat;
+}
+
+.slide img {
+    width: 100%;
+    margin-top: -9px;
+}
+
+section.topslide {
+    background: url(image/slide.jpg);
+    margin-top: -9px;
+}
+
+.slide h3 {
+    padding-top: 160px;
+    color: white;
+    font-weight: 300;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.slide h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+
+.slide button a {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.slide button a:hover {
+    color: black;
+    transition: .5s;
+}
+
+.slide-wrapper {
+    width: 650px;
+    margin: auto;
+}
+
+.slide h3 {
+    width: 300px;
+}
+
+.slide-wrapper h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 95px;
+}
+
+.slide-wrapper h1 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.btn1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.btn1 button {
+    border-radius: 20px;
+}
+
+.btn1 button a:hover {
+    color: black;
+    transition: .5s;
+}
+
+.btn1 button a {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.btn1 button i {
+    color: white;
+}
+
+.bottom-menu-ber {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.bottom-menu-ber {}
+
+.bottom-img {
+    margin-bottom: 51px;
+    width: 124px;
+    background: linear-gradient(#00e7ffdb, #15ebcbcc),url(image/uni.jpg);
+}
+
+.bottom-img img {
+    margin-bottom: 15px;
+    margin-left: 37px;
+    color: #bebe24;
+    padding: 0px -9px;
+    margin-top: 33px;
+}
+
+.bottom-img a {
+    margin-left: 12px;
+    padding-top: 38px;
+}
+
+.a {
+    padding-bottom: 10px;
+}
+
+.section-left img {
+    width: 100%;
+ 
+}
+
+.leftimg img {
+    width:33%;
+   
+    padding: 0px 9px;
+}
+
+.sectionimg{
+    width: 950px;
+}
+.section-left {
+    width: 380px;
+    float: left;
+}
+.leftimg {
+    margin-top: 195px;
+    margin-left: -16px;
+}
+
+.world {
+    margin-top: 40px;
+    background: url(image/slide.jpg);
+    width: 750px;
+    margin-left: 422px;
+    text-align: center;
+}
+
+.world h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.world p {
+    width: 660px;
+    margin-top: 20px;
+    line-height: 25px;
+    text-align: justify;
+    padding-bottom: 42px;
+    margin-left: 36px;
+    color: #dcd9d5;
+}
+
+
+ul.section-list {
+    list-style: none;
+    width: 180px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: -174px;
+    padding-bottom: 47px;
+}
+
+ul.section-list li a {
+    margin-left: 10px;
+    line-height: 35px;
+}
+
+ul.section-list li i {
+    color: #f4ebeb;
+}
+
+ul.section-list li a:hover {
+
+    color: black;transition: all 1s;
+}
+
+ul.section-list li a {
+    color: wheat;
+}
+
+
+.section-name h1 {
+    margin-left: -20px;
+    color: wheat;
+}
+
+.section-name {
+    width: 550px;
+    margin-left: 180px;
+}
+
+.student {
+    margin-left: 170px;
+    width: 165px;
+    margin-left: 20p;
+    border-bottom: ;
+    margin-top: 45px;
+    background: #07ffe8c7;
+}
+
+.student h2 {
+    padding-top: 10px;font-size: -webkit-xxx-large;
+}
+
+.student h3 {
+    padding-bottom: 21px;
+}
+.world{
+    background:url(image/slider2.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
